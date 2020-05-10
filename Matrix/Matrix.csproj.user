@@ -1,13 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\Leo%27s\Projects\GitHub\Matrix\Matrix\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
   <ItemGroup>
     <ApplicationDefinition Update="App.xaml">
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Sum.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Back.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Transp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Sum.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Div.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Mult_Num.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Mult.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Opr.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

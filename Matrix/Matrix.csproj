@@ -4,6 +4,59 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Arrow2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Arrow2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Pages\Back.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Transp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Div.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Mult_Num.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Mult.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Opr.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Pages\Back.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Transp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Div.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Mult_Num.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Mult.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Opr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
 
 </Project>
