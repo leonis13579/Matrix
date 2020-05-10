@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 D:\Leo's\Projects\GitHub\Matrix\Matrix\App.xaml
-11151548125
+9673112962
 
-4777852016
+13-1409104622
 1921654412462
-MainWindow.xaml;
+MainWindow.xaml;Pages\Back.xaml;Pages\Div.xaml;Pages\Menu.xaml;Pages\Mult.xaml;Pages\Mult_Num.xaml;Pages\Opr.xaml;Pages\Sum.xaml;Pages\Transp.xaml;
 
-False
+True
 
