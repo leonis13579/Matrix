@@ -34,7 +34,7 @@
             </Button>
 
             <TextBlock Grid.Column="1"
-                       Text="Определитель матрицы"
+                       Text="Обратная матрица"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
                        FontSize="50"
